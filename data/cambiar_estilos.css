@@ -1,0 +1,27 @@
+
+/* PARA LA CINTA DE EVENTOS */
+/* body::before{
+    background: url("https://i.ibb.co/0YwZbfy/SV-2-67x1.png");
+} */
+body::before{
+     /* content: ""; comentar el content si desea quitar la cita */
+    width: 500px;
+    height:100px;
+    background: url("https://i.ibb.co/0YwZbfy/SV-2-67x1.png");
+    position: fixed;
+    background-size: contain;
+
+    transform: rotate(-45deg) translateX(-100px) translateY(-140px);
+    z-index: 1000;
+    opacity: .8;
+}
+
+@media screen and (max-width:720px){
+    body::before{
+    transform: rotate(-45deg) translateX(-100px) translateY(-160px);
+    }
+}
+/* dar opacity 0 si existira la cinta y opacity .6 si no existira */
+.nav .nav__container .nav__logo{
+    opacity: .6;
+}
