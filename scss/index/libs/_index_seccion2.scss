@@ -1,0 +1,172 @@
+
+
+
+
+.seccion2{
+    margin-top: 5vh;
+    position: relative;
+    padding-top: 4vh;
+    width: 100%;
+    height: 500px;
+    background-color: #0002;
+    // border-radius: 10px;
+    
+
+    .seccion2__1{
+        
+        position: relative;
+    }
+}
+
+body.darkmode main .seccion2 {
+    background-color:#0003;
+}
+
+
+
+////////////////////////////////////////////////////////////
+// nuestro compromiso 
+
+
+
+
+.nc__container {
+
+    margin: 20px auto auto auto;
+
+    width: 60%;
+    max-width: 900px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+@media screen and (max-width:720px) {
+
+    .nc__container {
+        margin-top: 10%;
+        width: 100%;
+    }
+}
+
+
+//  A N I M A C I O N E S 
+
+
+
+// #punto-3-nc,
+// #punto-4-nc {
+//     animation: puntos-nc--2 5s ease-in alternate infinite;
+// }
+
+#punto-1-nc {
+    animation: puntos-nc--1 5s ease-in-out alternate infinite;
+}
+@keyframes puntos-nc--1 {
+
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(40%);
+    }
+    50%{
+        transform: translateY(0) translateX(0);
+    }
+
+    100%{
+        transform: translateX(20%);
+    }
+    
+}
+
+
+
+#punto-2-nc {
+    animation: puntos-nc--2 5s ease-in-out alternate infinite;
+}
+
+@keyframes puntos-nc--2 {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(40%);
+    }
+
+    50% {
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        transform: translateX(-20%);
+    }
+
+}
+
+
+
+
+#punto-3-nc {
+    animation: puntos-nc--3 5s ease-in-out alternate infinite;
+}
+
+@keyframes puntos-nc--3 {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-40%);
+    }
+
+    50% {
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        transform: translateX(20%);
+    }
+
+}
+
+
+
+
+
+#punto-4-nc {
+    animation: puntos-nc--4 5s ease-in-out alternate infinite;
+}
+
+@keyframes puntos-nc--4 {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-40%);
+    }
+
+    50% {
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        transform: translateX(-20%);
+    }
+
+}
+
+
+
+
+
+
