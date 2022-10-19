@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,MAAM,CAAE,KAAK,CAChB",
+    "sources": [
+        "../../scss/index/page/preguntas/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
